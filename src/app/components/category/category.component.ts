@@ -43,7 +43,7 @@ export class CategoryComponent implements OnInit {
        }
   }
   clearCurrentCategory(){
-    this.currentCategory={categoryId:0,categoryName:"Tüm Ürünler"};
+    this.currentCategory;
   }
   
 }
